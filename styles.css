@@ -190,6 +190,32 @@ footer p {
 
 /* ***** INFORMATION PAGE ***** */
 
+.InformatiePagina h2,
+.InformatiePagina h1{
+    font-size: 1.5em;
+    
+}
+
+.InformatiePagina h1{
+    margin: 0 0 1.5rem;
+}
+
+.InformatiePagina h2{
+    margin: 1.5rem 0 0;
+}
+
+.InformatiePagina h3{
+    font-size: 1em;
+    margin: 1.5rem 0 0.2rem;
+
+}
+
+.InformatiePagina p{
+    color: #D2D2D2;
+    margin: 0;
+}
+
+
 .InformatiePagina hr:nth-of-type(1){
     width: 100vw;
 }
@@ -232,9 +258,6 @@ footer p {
 
 
 .InformatiePagina section:nth-of-type(1) h1 {
-    font-size: 1.5rem;
-    margin-top: 10%;
-    margin-bottom: 5%;
     width: 90vw;
     
 }
@@ -252,7 +275,7 @@ footer p {
     width: 8rem;
 }
 
-.InformatiePagina:nth-of-type(1) button{
+.InformatiePagina section:nth-of-type(1) button{
     background-color: transparent;
     border: 0;
 
@@ -260,6 +283,30 @@ footer p {
     margin-right: 2rem;
 }
 
+
+.InformatiePagina button:nth-of-type(1){
+    margin: 1.5rem 1.5rem;
+    background-color: var(--main-color);
+    border: 0;
+
+
+    color: var(--f-color);
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 1rem 2rem;
+}
+
+.InformatiePagina section:nth-last-of-type(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InformatiePagina section:nth-last-of-type(2) ul{
+    margin: 0;
+    padding: 0;
+    width: 90vw;
+}
 
 
 
